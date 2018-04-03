@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/conversation_list_item_diliver_height"
+        android:background="@color/conversation_list_diliver_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/conversation_list_item_diliver_favorite_height"
+        android:layout_gravity="bottom"
+        android:background="@color/conversation_list_diliver_favorite_color" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/conversation_list_item_diliver_height"
+        android:background="@color/conversation_list_diliver_color" />
+
+</LinearLayout>

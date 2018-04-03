@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="conversation_list_item_diliver_height">1px</dimen>
+    <dimen name="conversation_list_item_diliver_favorite_height">10sp</dimen>
+    <dimen name="conversation_list_item_diliver_padding_left">24sp</dimen>
+    <dimen name="conversation_list_item_diliver_padding_right">0sp</dimen>
+    <dimen name="conversation_list_contact_icon_size">38sp</dimen>
+    <dimen name="rgk_fab_size">48sp</dimen>
+    <dimen name="conversation_list_item_min_height">60sp</dimen>
+    <dimen name="conversation_title_padding_left">15sp</dimen>
+    <dimen name="swipe_text_size">18sp</dimen>
+    <dimen name="swipe_padding">5sp</dimen>
+    <dimen name="swipe_marging">10sp</dimen>
+    <dimen name="toolbar_bottom_diliver_height">1px</dimen>
+    <dimen name="search_edit_text_height">32sp</dimen>
+    <dimen name="conversation_list_item_time_padding">10sp</dimen>
+    <dimen name="search_item_top_margin">8sp</dimen>
+    <dimen name="select_all_text_size">10sp</dimen>
+    <dimen name="conversation_list_item_snippet_textsize">12sp</dimen>
+    <dimen name="conversation_list_item_view_padding_lr">24dp</dimen>
+    <dimen name="conversation_list_toolbar_menu_textsize">16sp</dimen>
+    <dimen name="searchview_item_margin">0dp</dimen>
+    <dimen name="sim_select_indicator_size">20dp</dimen>
+</resources>

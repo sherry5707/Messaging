@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <color name="rgk_primary_color">#ffaa00</color>
+    <color name="conversation_list_diliver_color">@color/toolbar_diliver</color>
+    <color name="conversation_list_diliver_favorite_color">@color/rgk_toolbar_color</color>
+    <color name="message_bubble_color_incoming">#bdbdbd</color>
+    <color name="conversation_list_avatar_bg_color">#00ffffff</color>
+    <color name="conversation_list_avatar_letter_tile_color">#68696B</color>
+    <color name="rgk_tab_text_color">#6b6a6a</color>
+    <color name="recipient_text_view_hint_color">#b1b0b0</color>
+    <color name="rgk_compose_contact_text">#6b6a6a</color>
+    <color name="conversation_action_bar_background_color">#ffffff</color>
+    <color name="conversation_list_unread_color">#f50d0d</color>
+    <color name="conversation_list_unread_textcolor">#ffffff</color>
+    <color name="favorite_conversation_action_bar_background_color">#ffffff</color>
+    <color name="swipe_icon_color">#ffffff</color>
+    <color name="swipe_left_color">@color/rgk_primary_color</color>
+    <color name="swipe_right_color">#449c4e</color>
+    <color name="toolbar_diliver">#e5e5e5</color>
+    <color name="search_view_hint_color">#80545454</color>
+    <color name="search_view_bg">#ffffff</color>
+    <color name="conversation_list_item_right_icon_color">#64000000</color>
+    <color name="conversation_list_item_name_color">#333333</color>
+    <color name="uncheck_box_color">#e5e5e5</color>
+    <color name="rgk_toolbar_color">#fafafa</color>
+    <color name="sim_select_indicator_color">#6D6D6D</color>
+</resources>

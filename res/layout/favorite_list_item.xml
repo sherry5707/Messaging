@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/conversation_list_item_view_padding_tb"
+    android:paddingBottom="@dimen/conversation_list_item_view_padding_tb"
+    android:paddingLeft="@dimen/conversation_list_item_view_padding_lr"
+    android:paddingRight="@dimen/conversation_list_item_view_padding_lr">
+
+    <com.android.messaging.ui.ContactIconView
+        android:id="@+id/favorite_icon"
+        android:layout_width="@dimen/conversation_list_contact_icon_size"
+        android:layout_height="@dimen/conversation_list_contact_icon_size"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        app:iconSize="large" />
+
+    <LinearLayout
+        style="@style/ConversationListItemViewPaddingStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/favorite_name"
+                style="@style/ConversationListItemViewTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/favorite_saved_time"
+                style="@style/ConversationListItemViewTextStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/favorite_source"
+            style="@style/ConversationListItemViewTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/favorite_content"
+            style="@style/ConversationListItemViewTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
